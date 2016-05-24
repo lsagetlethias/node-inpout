@@ -4,7 +4,7 @@
   "description": "Node implementation and wrapping of InpOut dynamic library",
   "main": "lib/main.js",
   "engines": {
-    "node": "4.4.4"
+    "node": ">=4.4.4"
   },
   "repository": {
     "type": "git",
