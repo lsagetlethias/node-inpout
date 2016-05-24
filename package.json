@@ -1,0 +1,32 @@
+{
+  "name": "node-inpout",
+  "version": "0.0.1",
+  "description": "Node implementation and wrapping of InpOut dynamic library",
+  "main": "lib/main.js",
+  "engines": {
+    "node": "4.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bios21/node-inpout"
+  },
+  "keywords": [
+    "inpout",
+    "dll",
+    "ffi",
+    "wynd",
+    "serial"
+  ],
+  "author": "<Lilian Saget-Lethias>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bios21/node-inpout/issues"
+  },
+  "dependencies": {
+    "ffi": "2.0.0",
+    "ref": "1.3.2",
+    "simpleconfig": "^1.6.1"
+  },
+  "devDependencies": {
+  }
+}
