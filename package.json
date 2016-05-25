@@ -1,6 +1,6 @@
 {
   "name": "node-inpout",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node implementation and wrapping of InpOut dynamic library",
   "main": "lib/main.js",
   "engines": {
