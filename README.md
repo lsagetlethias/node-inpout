@@ -20,6 +20,9 @@ Then install it via npm:
 $ npm install --save node-inpout
 ```
 
+Also, on Windows systems, you can manually install `InstallDriver.exe` which is required to link the DLL to physical ports.
+In any case, the module try itself to install it if it's necessary.
+
 ## Example Usage
 
 ``` js
@@ -31,7 +34,12 @@ inpout.Inp32().then((data) => {
 });
 ```
 
+Test
+----
+To avoid the problem of using a physical device to test the module, you can find in the test folder C++ sources for a dummy dynamic library.
+I've already build the OSX version and the sources should be safe to use in another platform.
+
 License
--------
+----
 
 ISC License. See the `LICENSE` file.

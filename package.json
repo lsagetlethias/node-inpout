@@ -1,8 +1,11 @@
 {
   "name": "node-inpout",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Node implementation and wrapping of InpOut dynamic library",
   "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
   "engines": {
     "node": ">=4.4.4"
   },
@@ -26,5 +29,7 @@
     "ref": "1.3.2"
   },
   "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^8.4.0"
   }
 }
